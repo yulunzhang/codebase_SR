@@ -55,9 +55,11 @@ Download training and testing datasets and put them into the corresponding folde
 
 ## <a name="models"></a>🔎 Models
 
-| Method    | Params | FLOPs | Dataset  | PSNR | SSIM | Model Zoo |
-| :-------- | :----: | :---: | :------: | :--: | :--: | :-------: |
-| FSRCNN-x4 | 22.04K | 1.25G | Urban100 |      |      |           |
+| Method    | Params | FLOPs | Dataset  | PSNR | SSIM |                       Model Zoo                       |
+| :-------- | :----: | :---: | :------: | :--: | :--: | :---------------------------------------------------: |
+| FSRCNN-x2 | 22.04K | 5.01G | Urban100 |      |      | [FSRCNN_x2.pth](experiments/pretrained_models/FSRCNN) |
+| FSRCNN-x3 | 22.04K | 2.22G | Urban100 |      |      | [FSRCNN_x3.pth](experiments/pretrained_models/FSRCNN) |
+| FSRCNN-x4 | 22.04K | 1.25G | Urban100 |      |      | [FSRCNN_x4.pth](experiments/pretrained_models/FSRCNN) |
 
 The performance is reported on Urban100, and output size of FLOPs is 3×1280×720. 
 
