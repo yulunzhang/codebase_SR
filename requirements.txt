@@ -1,3 +1,6 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.0+cu111
+torchvision==0.9.0+cu111
 addict
 future
 lmdb
@@ -9,8 +12,6 @@ requests
 scikit-image
 scipy
 tb-nightly
-torch==1.8.0
-torchvision
 tqdm
 yapf
 timm 
