@@ -10,7 +10,7 @@ datasets:
   train:
     name: DF2K
     type: PairedImageDataset
-    dataroot_gt: datasets/DF2K/HR_new
+    dataroot_gt: datasets/DF2K/HR
     dataroot_lq: datasets/DF2K/LR_bicubic/X4
     filename_tmpl: '{}x4'
     io_backend:
