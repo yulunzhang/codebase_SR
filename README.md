@@ -32,7 +32,7 @@ ssh -p 22 -L 16006:127.0.0.1:6006 username@remote_server_ip
 tensorboard --logdir=tb_logger/xxx --port=6006
 ```
 
-Then open the web page `127.0.0.1:16006` on your local computer.
+Then open the web page `http://localhost:6006/` on your local computer.
 
 
 
