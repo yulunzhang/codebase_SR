@@ -38,12 +38,12 @@ Then open the web page `127.0.0.1:16006` on your local computer.
 
 ## 🔗 Contents
 
-1. [Datasets](#🔎 Datasets)
-1. [Models](#🔎 Models)
-1. [Training](#🔧 Training)
-1. [Testing](#⚒️ Testing)
+1. [Datasets](#datasets)
+1. [Models](#models)
+1. [Training](#training)
+1. [Testing](#testing)
 
-## 🔎 Datasets
+## <a name="datasets"></a>🔎 Datasets
 
 Used training and testing sets can be downloaded as follows:
 
@@ -53,7 +53,7 @@ Used training and testing sets can be downloaded as follows:
 
 Download training and testing datasets and put them into the corresponding folders of `datasets/`. See [datasets](datasets/README.md) for the detail of the directory structure.
 
-## 🔎 Models
+## <a name="models"></a>🔎 Models
 
 | Method    | Params | FLOPs | Dataset  | PSNR | SSIM | Model Zoo |
 | :-------- | :----: | :---: | :------: | :--: | :--: | :-------: |
@@ -61,7 +61,7 @@ Download training and testing datasets and put them into the corresponding folde
 
 The performance is reported on Urban100, and output size of FLOPs is 3×1280×720. 
 
-## 🔧 Training
+## <a name="training"></a>🔧 Training
 
 - Download [training](https://drive.google.com/file/d/1TubDkirxl4qAWelfOnpwaSKoj3KLAIG4/view?usp=share_link) (DF2K, already processed) and [testing](https://drive.google.com/file/d/1yMbItvFKVaCT93yPWmlP3883XtJ-wSee/view?usp=sharing) (Set5, Set14, BSD100, Urban100, Manga109, already processed) datasets, place them in `datasets/`.
 
@@ -80,7 +80,7 @@ The performance is reported on Urban100, and output size of FLOPs is 3×1280×72
 
 - The training experiment is in `experiments/`.
 
-## ⚒️ Testing
+## <a name="testing"></a>⚒️ Testing
 
 ### 🔨 Test images with HR
 
