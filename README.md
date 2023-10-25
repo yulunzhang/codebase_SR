@@ -55,13 +55,17 @@ Download training and testing datasets and put them into the corresponding folde
 
 ## <a name="models"></a>🔎 Models
 
-| Method    | Params | FLOPs | Dataset  | PSNR | SSIM |                       Model Zoo                       |
-| :-------- | :----: | :---: | :------: | :--: | :--: | :---------------------------------------------------: |
-| FSRCNN-x2 | 22.04K | 5.01G | Urban100 |      |      | [FSRCNN_x2.pth](experiments/pretrained_models/FSRCNN) |
-| FSRCNN-x3 | 22.04K | 2.22G | Urban100 |      |      | [FSRCNN_x3.pth](experiments/pretrained_models/FSRCNN) |
-| FSRCNN-x4 | 22.04K | 1.25G | Urban100 |      |      | [FSRCNN_x4.pth](experiments/pretrained_models/FSRCNN) |
+| Method    | Params | FLOPs | Dataset  |  PSNR   |  SSIM  |                          Model Zoo                           |
+| :-------- | :----: | :---: | :------: | :-----: | :----: | :----------------------------------------------------------: |
+| FSRCNN-x2 | 22.04K | 5.01G | Urban100 |         |        | [train_FSRCNN_patch48_batch16_x2](experiments/pretrained_models/train_FSRCNN_patch48_batch16_x2) |
+| FSRCNN-x3 | 22.04K | 2.22G | Urban100 |         |        | [train_FSRCNN_patch48_batch16_x3](experiments/pretrained_models/train_FSRCNN_patch48_batch16_x3) |
+| FSRCNN-x4 | 22.04K | 1.25G | Urban100 | 23.6120 | 0.6826 | [train_FSRCNN_patch48_batch16_x4](experiments/pretrained_models/train_FSRCNN_patch48_batch16_x4) |
 
 The performance is reported on Urban100, and output size of FLOPs is 3×1280×720. 
+
+We also provide the **testing results** (log) and **tb_logger** in the folder.
+
+
 
 ## <a name="training"></a>🔧 Training
 
