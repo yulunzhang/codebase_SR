@@ -25,7 +25,7 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: experiments/pretrained_models/FSRCNN/FSRCNN_x3.pth
+  pretrain_network_g: experiments/pretrained_models/train_FSRCNN_patch48_batch16_x3/FSRCNN_x3.pth
   strict_load_g: True
 
 # validation settings
