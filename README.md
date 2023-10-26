@@ -93,6 +93,12 @@ We also provide the **testing results** (log) and **tb_logger** in the folder.
 - Run the following scripts. The testing configuration is in `options/test/` (e.g., [test_FSRCNN_x4.yml](options/Test/test_FSRCNN_x4.yml)).
 
   ```shell
+  # FSRCNN, x2
+  python basicsr/test.py -opt options/Test/test_FSRCNN_x2.yml
+  
+  # FSRCNN, x3
+  python basicsr/test.py -opt options/Test/test_FSRCNN_x3.yml
+  
   # FSRCNN, x4
   python basicsr/test.py -opt options/Test/test_FSRCNN_x4.yml
   ```
@@ -106,6 +112,12 @@ We also provide the **testing results** (log) and **tb_logger** in the folder.
 - Run the following scripts. The testing configuration is in `options/test/` (e.g., [test_single_x4.yml](options/Test/test_single_x4.yml)).
 
   ```shell
+  # Test on your dataset, x2
+  python basicsr/test.py -opt options/Test/test_single_x2.yml
+  
+  # Test on your dataset, x3
+  python basicsr/test.py -opt options/Test/test_single_x3.yml
+  
   # Test on your dataset, x4
   python basicsr/test.py -opt options/Test/test_single_x4.yml
   ```
