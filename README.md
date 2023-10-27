@@ -74,13 +74,13 @@ We also provide the **testing results** (log) and **tb_logger** in the folder.
 - Run the following scripts. The training configuration is in `options/train/`.
 
   ```shell
-  # FSRCNN, x2, input=48x48, 1 GPUs
+  # FSRCNN, x2, input=48x48, 1 GPU
   python basicsr/train.py -opt options/Train/train_FSRCNN_x2.yml
   
-  # FSRCNN, x3, input=48x48, 1 GPUs
+  # FSRCNN, x3, input=48x48, 1 GPU
   python basicsr/train.py -opt options/Train/train_FSRCNN_x3.yml
   
-  # FSRCNN, x4, input=48x48, 1 GPUs
+  # FSRCNN, x4, input=48x48, 1 GPU
   python basicsr/train.py -opt options/Train/train_FSRCNN_x4.yml
   ```
 
